@@ -5,12 +5,15 @@
       color="primary"
       dark
     >
-      <v-app-bar-nav-icon @click="drawer=!drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer=!drawer" />
 
       <v-spacer />
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" app>
+    <v-navigation-drawer
+      v-model="drawer"
+      app
+    >
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="text-h6">
@@ -62,7 +65,8 @@ export default {
     drawer: true,
     items: [
       { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/' },
-      { title: 'GridSystem', icon: 'mdi-view-dashboard', to: '/grid-system' }
+      { title: 'Grid System', icon: 'mdi-view-dashboard', to: '/grid-system' },
+      { title: 'Grid List View', icon: 'mdi-view-dashboard', to: '/grid-list-page' }
     ],
     right: null
   })
