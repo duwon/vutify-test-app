@@ -67,7 +67,8 @@ export default {
       { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/' },
       { title: 'Grid System', icon: 'mdi-view-dashboard', to: '/grid-system' },
       { title: 'Grid List View', icon: 'mdi-view-dashboard', to: '/grid-list-page' },
-      { title: 'Breakpoints', icon: 'mdi-view-dashboard', to: '/breakpoints' }
+      { title: 'Breakpoints', icon: 'mdi-view-dashboard', to: '/breakpoints' },
+      { title: 'Typhography', icon: 'mdi-view-dashboard', to: '/typography' }
     ],
     right: null
   })
